@@ -21,5 +21,5 @@ if exchange_rate:
 else:
     print(f"Exchange rate for USD not found.")
 
-gruvnia = int(input("How many gruvnia do you have - "))
-print(f"You have {int(gruvnia)/float(exchange_rate)} dollars")
+gruvna = int(input("How many gruvnia do you have - "))
+print(f"You have {int(gruvna)/float(exchange_rate)} dollars")
